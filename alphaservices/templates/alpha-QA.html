@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    Programming Alpha is a machine question-asnwering AI system.
+<meta charset="utf-8">
+<title>Programming Alpha QA service</title>
+</head>
+<body>
+<p>
+    The service currently support AI related questions answering for relative engineers and learners.
+    The system backend is based on large corpus information aggregation.
+    currently ,the knowledge data base is extracted from:<br/>
+    <ul>
+    <li><a href="https://stackoverflow.com/">Stack Overflow</a> </li>
+    <li><a href="https://stats.stackexchange.com/">Crossvalidated</a> </li>
+    <li><a href="https://datascience.stackexchange.com/">Artificial Intelligence</a> </li>
+    <li><a href="https://ai.stackexchange.com/">Data Science</a> </li>
+    </ul>
+    besides, we are now gathering AI related corpus from <a href="https://www.wikipedia.org/">wikipedia</a>
+    to extend the current knowledge base.(we lack fundation support to rent ips which can boost the crawlers significantly!!!)<br/>
+    The core part of the system is a ngram hashing(murmurhash3) retrieval model and a multi-task fine-tuning
+    Semantic Understanding Model which shares some weights of google Bert Base.
+</p>
+    <form action="/webServices/alpha-QA" method="post">
+        {% csrf_token %}
+        <input type="text" style="width: 500px"  name="q">
+        <input type="submit" value="Ask">
+    </form>
+<p> <strong>{{ answer | safe}}</strong> </p>
+
+<p>
+    I hope to find some practical students of software academy or someone who holds pretty
+    aesthetic judgement to help imporve the pretty
+    outlook of the web page so that more people would be willing to use the service.
+</p>
+</body>
+</html>

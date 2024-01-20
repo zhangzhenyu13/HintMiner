@@ -1,0 +1,8 @@
+{
+    "Tags":["<keras>","<tensorflow>","<caffe>","<pytorch>","<artificial-intelligence>","<nlp>","<computer-vision>","<deep-learning>","<neural-network>",
+      "<machine-learning>","<reinforcement-learning>","<scikit-learn>","<xgboost>", "<word2vec>", "<theano>", "<tensorboard>", "<svm>", "<stanford-nlp>",
+      "<sentiment-analysis>", "<recurrent-neural-network>", "<random-forest>", "<prediction>", "<object-detection>", "<nltk>", "<lstm>", "<logistic-regression>",
+      "<gensim>", "<feature-extraction>", "<decision-tree>","<data-science>", "<cross-validation>", "<convolution>", "<conv-neural-network>","<opencv>",
+      "<image-processing>", "<classification>","<weka>","<video-capture>","<opencv3.0>","<libsvm>","<image-segmentation>","<image-recognition>",
+      "<image-manipulation>","<face-detection>","<emgucv>","<data-mining>"]
+  }
